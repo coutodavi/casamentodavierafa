@@ -1,0 +1,37 @@
+const { google } = require('googleapis');
+const path = require('path');
+
+const auth = new google.auth.GoogleAuth({
+  keyFile: path.join(__dirname, 'ascendant-hub-471615-p3-f0e50336a98a.json'), // seu arquivo de credenciais
+  scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+});
+
+const spreadsheetId = 'COLE_AQUI_O_ID_DA_SUA_PLANILHA';
+
+async function adicionarPresenca(codigo, familia, convidados) {
+  const client = await auth.getClient();
+  const sheets = google.sheets({ version: 'v4', auth: client });
+
+  const hoje = new Date().toISOString().split('T')[0];
+
+  const linhas = convidados.map(c => [
+    codigo,
+    familia,
+    c.nome,
+    c.presenca,
+    hoje
+  ]);
+
+  await sheets.spreadsheets.values.append({
+    spreadsheetId,
+    range: 'A:E',
+    valueInputOption: 'USER_ENTERED',
+    resource: {
+      values: linhas,
+    },
+  });
+
+  console.log(`Presença registrada na planilha para ${familia}`);
+}
+
+module.exports = { adicionarPresenca };

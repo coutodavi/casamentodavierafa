@@ -1,0 +1,30 @@
+[
+  {
+    "codigo": "FAM123",
+    "nome": "Família Silva",
+    "convidados": [
+      {
+        "nome": "João Silva",
+        "presenca": "Sim"
+      },
+      {
+        "nome": "Maria Silva",
+        "presenca": "Sim"
+      }
+    ]
+  },
+  {
+    "codigo": "FAM456",
+    "nome": "Família Souza",
+    "convidados": [
+      {
+        "nome": "Ana Souza",
+        "presenca": "Sim"
+      },
+      {
+        "nome": "Carlos Souza",
+        "presenca": "Não"
+      }
+    ]
+  }
+]

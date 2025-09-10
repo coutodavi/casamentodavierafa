@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ascendant-hub-471615-p3",
+  "private_key_id": "f0e50336a98ae8b10f58a779984b01541538ec26",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC3hloib4HO80V4\ngHrq4G+K5q0lZ6GFs99WiO7wECJFVpc1NVd4C9LbTciTQZ2xHTZDfTTrbMxYwHD2\nIxK2P7krNxtrD2fBVGdOp/xghCTZ6vHpSs8s9MD5vTau1hFMEFjhV3q5sTU3h7ri\n6x6nl00/UHFRrxYTXqWh8kq6VMUhEX7hE9IqL2+ozjLMs+NLih7sySniypIR1hTo\nonZd27+50azAKpZ7qhg82M77WK5JeUbrFJMi+J44w/hVMlWWSu1FVMBxYwMKoHQy\n+JsPkkgoHSo1h0cNUzaORnBLoR1dA+z2PlqJ7EdoJoSfUcK6ClQOJ+BcYPk+UgU1\nQENjiNpVAgMBAAECggEAALyi/oKEOGPwn1UQkx/i6Yi5r78MmYhFfNk/UvcBnl+d\nEp229lOaScPbvnEAQNXuepgpC0q2GKNcFudean/L9irSzXR9yI8vLWL/eR/PUWBJ\n3d1eoCgkHEogkA9+AvDYZoMRTyyYuO4urbNy2ygPOjTBWAeY6rpqbAZ67Eq3augV\nsjfhUAKJ05EG1QK7jZwgZT630Gi+CFas/4ymFN5UQf7x1r7telTTB7E0Ibv0hRG4\nergTmy2ni1+htT4v8f+3NtI+jzNeAdDV80bsgjGWLmX51rkOQDK38KEGVOdS+Kr8\npUIVQr1MvpoJ0lTGLkhGR4s3TXYpsjy/Fo46PwjACQKBgQDqSngttaFOekSmdBTQ\n0B0I2JrrpfluNTM9uav2Isex70Bt95iNp9uRqyZgqbxogjFvZEsmu1+dsJ/76pxZ\nIlq5B7oeHcjmAI3QC/RrJfrJMMiWF3oE9STvMyz2kFEOCrM6TUpa1Uca00eF7g0X\nOuy5+aB51Nde6wlnjIwor0cVKQKBgQDIh620UMc9djmIkWW9o4hSZEu/E86ryApL\nKwpkfJxNr4D15MShp8Bna7IKeKpzSxQekYcU7wY3YQj74i8zchRBadrGCkIIlJTS\n7aUb6PmsXp8XfPRrSevgOoYCYTAdGXEnKvw2b04/VKDqw1K6S/0xfA1XKifEjk+w\ngTzgGFY1TQKBgQCJE9kMpWAjUlYoLXKgWaMjMdgyV4GAgY/hZWi/Mco0yQ6hSGPx\nPWyx5bkmhSi+3K2fxsZRev+Oe3CfK70eSYNbDrJOPI72Qwy11MjEiAwa+nfhmQrD\nK8rYSNDd0cIavRfv3JjMXEyl3UfTjFwMY2VtyieiIG2CE3IFK641f5fPQQKBgQCx\nsdkxQatsQUk2RXFcnH7+U7Xzej/XZQoKFfe9l9aB2JV0T+YWQapzerFoKgkQ5WTM\nubRzzmM5y5jEa2fcNKjSVlTwzMI7DD7cso1usAIexjJABBAqynRkXDfIAAs8ngDw\n7lxUeElkQT/fCHpUb2XL5duEc+yNdnYTOFKTWb16uQKBgQCMMNM4s7JuIFfeqEwZ\nGCfOl8nyOG4pp+YHexJLwZwUJF6kh5CSrY+FeIAdEA0G8GIBMqTN6RUGirSfI40x\nEJmphXOZX4wCulHCnXqS81yGcDx8GKVSTUV31KBrpzpuKhQmwkP9SEyNimdhxNCB\nmuvIWqZKUPSPVdusb8KV7cQHuw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "casamentodavierafa@ascendant-hub-471615-p3.iam.gserviceaccount.com",
+  "client_id": "107012369804004272440",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/casamentodavierafa%40ascendant-hub-471615-p3.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
