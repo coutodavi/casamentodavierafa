@@ -2,8 +2,8 @@ const { google } = require('googleapis');
 const path = require('path');
 
 const auth = new google.auth.GoogleAuth({
-  keyFile: path.join(__dirname, 'ascendant-hub-471615-p3-f0e50336a98a.json'),
-  scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+  keyFile: "google-credentials.json",
+  scopes: ["https://www.googleapis.com/auth/spreadsheets"]
 });
 
 const spreadsheetId = '14QkGkCx3oaRN73imHCV2ScAjrY7kjrApPU37elCMd2o'; // <<< cole aqui
