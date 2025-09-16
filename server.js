@@ -91,12 +91,22 @@ mercadopago.configure({
   access_token: process.env.MP_ACCESS_TOKEN
 });
 
-// Criar pagamento no Mercado Pago
+const mercadopago = require("mercadopago");
+
+// Inicializa cliente do Mercado Pago
+const mpClient = new mercadopago.MercadoPagoConfig({
+  accessToken: process.env.MP_ACCESS_TOKEN
+});
+
+// Serviços de preferências (pagamentos)
+const preference = new mercadopago.Preference(mpClient);
+
+// Rota para criar preferência de pagamento
 app.post("/criar-pagamento", async (req, res) => {
   try {
     const { nome, preco, imagem } = req.body;
 
-    const preference = {
+    const body = {
       items: [
         {
           title: nome,
@@ -106,20 +116,22 @@ app.post("/criar-pagamento", async (req, res) => {
         }
       ],
       back_urls: {
-        success: "https://SEU-SITE.onrender.com/presentes.html",
-        failure: "https://SEU-SITE.onrender.com/presentes.html",
-        pending: "https://SEU-SITE.onrender.com/presentes.html"
+        success: "https://casamentodavierafa.onrender.com/presentes.html",
+        failure: "https://casamentodavierafa.onrender.com/presentes.html",
+        pending: "https://casamentodavierafa.onrender.com/presentes.html"
       },
       auto_return: "approved"
     };
 
-    const response = await mercadopago.preferences.create(preference);
-    res.json({ url: response.body.init_point }); // link de pagamento
+    const response = await preference.create({ body });
+
+    res.json({ url: response.init_point });
   } catch (error) {
     console.error("Erro ao criar pagamento:", error);
     res.status(500).json({ error: "Erro ao criar pagamento" });
   }
 });
+
 
 // Inicia o servidor
 app.listen(PORT, () => {
