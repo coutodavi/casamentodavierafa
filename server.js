@@ -2,6 +2,7 @@ const express = require("express");
 const fs = require("fs");
 const path = require("path");
 const { adicionarPresenca } = require("./googleSheets");
+const mercadopago = require("mercadopago"); // ✅ apenas 1 vez
 
 const app = express();
 const PORT = 3000;
@@ -80,28 +81,13 @@ app.post("/confirmar/:codigo", async (req, res) => {
   }
 });
 
-// Tratamento para rotas inexistentes
-app.use((req, res) => {
-  res.status(404).json({ erro: "Rota não encontrada." });
-});
-const mercadopago = require("mercadopago");
-
-// Configura Mercado Pago com variável de ambiente
-mercadopago.configure({
-  access_token: process.env.MP_ACCESS_TOKEN
-});
-
-const mercadopago = require("mercadopago");
-
-// Inicializa cliente do Mercado Pago
+// 🔑 Mercado Pago SDK v2
 const mpClient = new mercadopago.MercadoPagoConfig({
   accessToken: process.env.MP_ACCESS_TOKEN
 });
-
-// Serviços de preferências (pagamentos)
 const preference = new mercadopago.Preference(mpClient);
 
-// Rota para criar preferência de pagamento
+// 🚀 Rota para criar preferência de pagamento
 app.post("/criar-pagamento", async (req, res) => {
   try {
     const { nome, preco, imagem } = req.body;
@@ -132,9 +118,12 @@ app.post("/criar-pagamento", async (req, res) => {
   }
 });
 
+// Tratamento para rotas inexistentes
+app.use((req, res) => {
+  res.status(404).json({ erro: "Rota não encontrada." });
+});
 
 // Inicia o servidor
 app.listen(PORT, () => {
   console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
-
