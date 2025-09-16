@@ -3,42 +3,36 @@
     "nome": "Cafeteira Italiana",
     "valor": "R$ 150,00",
     "imagem": "https://media.discordapp.net/attachments/693232314733428747/1417338088199553095/image.png?ex=68ca1e75&is=68c8ccf5&hm=f1ec63ca5772886dd2ae457bcfad8f7b7349c47a91d113b561dc439cb680d921&=&format=webp&quality=lossless",
-    "link": "https://mpago.la/1abc123",
     "categoria": "Cozinha"
   },
   {
     "nome": "Conjunto de Taças de Cristal",
     "valor": "R$ 200,00",
     "imagem": "https://media.discordapp.net/attachments/693232314733428747/1417338088199553095/image.png?ex=68ca1e75&is=68c8ccf5&hm=f1ec63ca5772886dd2ae457bcfad8f7b7349c47a91d113b561dc439cb680d921&=&format=webp&quality=lossless",
-    "link": "https://mpago.la/2def456",
     "categoria": "Cozinha"
   },
   {
     "nome": "Aparelho de Jantar 20 peças",
     "valor": "R$ 350,00",
     "imagem": "https://media.discordapp.net/attachments/693232314733428747/1417338088199553095/image.png?ex=68ca1e75&is=68c8ccf5&hm=f1ec63ca5772886dd2ae457bcfad8f7b7349c47a91d113b561dc439cb680d921&=&format=webp&quality=lossless",
-    "link": "https://mpago.la/3ghi789",
     "categoria": "Cozinha"
   },
   {
     "nome": "Vaso Decorativo",
     "valor": "R$ 180,00",
     "imagem": "https://media.discordapp.net/attachments/693232314733428747/1417338088199553095/image.png?ex=68ca1e75&is=68c8ccf5&hm=f1ec63ca5772886dd2ae457bcfad8f7b7349c47a91d113b561dc439cb680d921&=&format=webp&quality=lossless",
-    "link": "https://mpago.la/4jkl012",
     "categoria": "Decoração"
   },
   {
     "nome": "Luminária de Mesa",
     "valor": "R$ 220,00",
     "imagem": "https://media.discordapp.net/attachments/693232314733428747/1417338088199553095/image.png?ex=68ca1e75&is=68c8ccf5&hm=f1ec63ca5772886dd2ae457bcfad8f7b7349c47a91d113b561dc439cb680d921&=&format=webp&quality=lossless",
-    "link": "https://mpago.la/5mno345",
     "categoria": "Decoração"
   },
   {
     "nome": "Aspirador de Pó Vertical",
     "valor": "R$ 400,00",
     "imagem": "https://media.discordapp.net/attachments/693232314733428747/1417338088199553095/image.png?ex=68ca1e75&is=68c8ccf5&hm=f1ec63ca5772886dd2ae457bcfad8f7b7349c47a91d113b561dc439cb680d921&=&format=webp&quality=lossless",
-    "link": "https://mpago.la/6pqr678",
     "categoria": "Eletrodomésticos"
   }
 ]
