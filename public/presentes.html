@@ -1,31 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <h1>Lista de Presentes</h1>
-<p class="mensagem-presentes">
-  Com muito carinho, montamos esta lista de presentes.  
-  Sua contribuição será uma lembrança especial em nossa nova fase.  
-  Obrigado por compartilhar este momento conosco! 💕
-</p>
-
-<!-- Botões de filtro -->
-<!-- Botões de filtro -->
-<div class="filtros">
-  <button onclick="filtrarPresentes('Todos')"><i class="fa-solid fa-gift"></i> Todos</button>
-  <button onclick="filtrarPresentes('Cozinha')"><i class="fa-solid fa-utensils"></i> Cozinha</button>
-  <button onclick="filtrarPresentes('Decoração')"><i class="fa-solid fa-couch"></i> Decoração</button>
-  <button onclick="filtrarPresentes('Eletrodomésticos')"><i class="fa-solid fa-bolt"></i> Eletrodomésticos</button>
-</div>
-
-
-<div class="lista-presentes" id="lista-presentes"></div>
-
   <title>Lista de Presentes - Rafaela & Davi</title>
- <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/presentes.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/presentes.css">
 
   <style>
     body {
@@ -50,6 +32,34 @@
       color: #444;
     }
 
+    .filtros {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 20px auto 30px;
+      max-width: 800px;
+    }
+
+    .filtros button {
+      border: 2px solid #2d5938;
+      background: transparent;
+      color: #000;
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .filtros button:hover {
+      background: #2d5938;
+      color: #fff;
+    }
+
     .lista-presentes {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -58,38 +68,30 @@
       margin: 0 auto;
     }
 
-  .presente {
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  padding: 10px; /* antes era 15px ou 20px */
-}
-
+    .presente {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      transition: transform 0.2s, box-shadow 0.3s;
+    }
 
     .presente:hover {
       transform: translateY(-4px);
       box-shadow: 0 6px 18px rgba(0,0,0,0.12);
     }
 
-.presente img {
-  width: 85%;          /* ocupa menos espaço */
-  height: auto;
-  max-height: 150px;   /* limite de altura */
-  object-fit: contain; /* garante que a imagem não corte */
-  border-radius: 10px;
-  margin: 8px auto;   /* centraliza dentro do card */
-  display: block;
-}
-
-
-
-
-
-    .presente:hover img {
-      transform: scale(1.05);
+    .presente img {
+      width: 85%;
+      height: auto;
+      max-height: 150px;
+      object-fit: contain;
+      border-radius: 10px;
+      margin: 8px auto;
+      display: block;
     }
 
     .presente-conteudo {
@@ -112,19 +114,18 @@
       margin-bottom: 15px;
     }
 
-    .presente a {
-      display: inline-block;
+    .presente button {
       padding: 10px 16px;
       background-color: #2d5938;
       color: white;
-      text-decoration: none;
+      border: none;
       border-radius: 8px;
       font-weight: 500;
-      text-align: center;
+      cursor: pointer;
       transition: background-color 0.3s, transform 0.2s;
     }
 
-    .presente a:hover {
+    .presente button:hover {
       background-color: #244a2e;
       transform: scale(1.05);
     }
@@ -132,14 +133,71 @@
 </head>
 
 <body>
+  <h1>Lista de Presentes</h1>
+  <p class="mensagem-presentes">
+    Com muito carinho, montamos esta lista de presentes.  
+    Sua contribuição será uma lembrança especial em nossa nova fase.  
+    Obrigado por compartilhar este momento conosco! 💕
+  </p>
 
-  <div class="lista-presentes" id="lista-presentes">
-    <!-- Presentes virão via JS -->
+  <!-- Botões de filtro -->
+  <div class="filtros">
+    <button onclick="filtrarPresentes('Todos')"><i class="fa-solid fa-gift"></i> Todos</button>
+    <button onclick="filtrarPresentes('Cozinha')"><i class="fa-solid fa-utensils"></i> Cozinha</button>
+    <button onclick="filtrarPresentes('Decoração')"><i class="fa-solid fa-couch"></i> Decoração</button>
+    <button onclick="filtrarPresentes('Eletrodomésticos')"><i class="fa-solid fa-bolt"></i> Eletrodomésticos</button>
   </div>
-  <div class="voltar-btn">
-        <a href="index.html" class="botao">⬅️ Voltar</a>
-      </div>
-  <script src="js/script-presentes.js"></script>
-</body>
 
+  <!-- Lista de presentes -->
+  <div class="lista-presentes" id="lista-presentes"></div>
+
+  <div class="voltar-btn">
+    <a href="index.html" class="botao">⬅️ Voltar</a>
+  </div>
+
+  <script>
+    async function carregarPresentes() {
+      const res = await fetch("/presentes.json");
+      const presentes = await res.json();
+
+      const lista = document.getElementById("lista-presentes");
+      lista.innerHTML = "";
+
+      presentes.forEach(p => {
+        const div = document.createElement("div");
+        div.classList.add("presente");
+
+        div.innerHTML = `
+          <img src="${p.imagem}" alt="${p.nome}">
+          <div class="presente-conteudo">
+            <h3>${p.nome}</h3>
+            <p>R$ ${p.valor}</p>
+            <button onclick="comprarPresente('${p.nome}', '${p.valor}', '${p.imagem}')">
+              🎁 Presentear
+            </button>
+          </div>
+        `;
+
+        lista.appendChild(div);
+      });
+    }
+
+    async function comprarPresente(nome, preco, imagem) {
+      const res = await fetch("/criar-pagamento", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ nome, preco, imagem })
+      });
+
+      const data = await res.json();
+      if (data.url) {
+        window.location.href = data.url;
+      } else {
+        alert("Erro ao iniciar pagamento. Tente novamente.");
+      }
+    }
+
+    carregarPresentes();
+  </script>
+</body>
 </html>
