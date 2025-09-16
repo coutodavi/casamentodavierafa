@@ -84,6 +84,42 @@ app.post("/confirmar/:codigo", async (req, res) => {
 app.use((req, res) => {
   res.status(404).json({ erro: "Rota não encontrada." });
 });
+const mercadopago = require("mercadopago");
+
+// Configura Mercado Pago com variável de ambiente
+mercadopago.configure({
+  access_token: process.env.MP_ACCESS_TOKEN
+});
+
+// Criar pagamento no Mercado Pago
+app.post("/criar-pagamento", async (req, res) => {
+  try {
+    const { nome, preco, imagem } = req.body;
+
+    const preference = {
+      items: [
+        {
+          title: nome,
+          unit_price: Number(preco),
+          quantity: 1,
+          picture_url: imagem
+        }
+      ],
+      back_urls: {
+        success: "https://SEU-SITE.onrender.com/presentes.html",
+        failure: "https://SEU-SITE.onrender.com/presentes.html",
+        pending: "https://SEU-SITE.onrender.com/presentes.html"
+      },
+      auto_return: "approved"
+    };
+
+    const response = await mercadopago.preferences.create(preference);
+    res.json({ url: response.body.init_point }); // link de pagamento
+  } catch (error) {
+    console.error("Erro ao criar pagamento:", error);
+    res.status(500).json({ error: "Erro ao criar pagamento" });
+  }
+});
 
 // Inicia o servidor
 app.listen(PORT, () => {
