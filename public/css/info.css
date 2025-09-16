@@ -1,0 +1,112 @@
+/* ---------------------------
+   Estilos da página de informações
+---------------------------- */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+/* Fundo translúcido aplicado em TODAS as páginas */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/cerimonia.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.15; /* ajuste da transparência */
+  z-index: -1;
+}
+.central {
+  text-align: center;
+  margin-top: 50px;
+}
+.info-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.foto-noivos-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.foto-noivos-info img {
+  display: block;
+  margin: 0 auto 10px;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
+  border: 4px solid #2d5938;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.foto-noivos-info h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: #2d5938;
+  margin-bottom: 30px;
+}
+
+/* Blocos de informações */
+.bloco-info {
+  display: flex;
+  align-items: flex-start;
+  background: #f8f8f8;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  gap: 15px;
+  text-align: left;
+}
+
+.bloco-info .icone {
+  font-size: 2rem;
+  width: 40px;
+  text-align: center;
+  color: #2d5938;
+}
+
+.bloco-info .texto h2 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #2d5938;
+}
+
+.bloco-info .texto p {
+  margin: 4px 0;
+  color: #444;
+}
+
+.bloco-info .texto a {
+  color: #2d5938;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.bloco-info .texto a:hover {
+  text-decoration: underline;
+}
+
+.foto-local {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.foto-local img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+}

@@ -1,0 +1,249 @@
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/cerimonia.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.15; /* ajuste da transparência */
+  z-index: -1;
+}
+.central {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2d7a32;
+}
+
+h2 {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.deadline {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
+.deadline strong { color: #2d7a32; }
+.deadline .status.aberto { color: #2d7a32; font-weight: 600; }
+.deadline .status.encerrado { color: #a11d1d; font-weight: 600; }
+
+#login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+#login input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+#login button {
+  width: 100%;
+  background: #2d7a32;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+#login button:hover { background: #256428; }
+
+.instrucoes {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Lista de convidados */
+.convidados {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.convidado {
+  margin-bottom: 18px;
+  padding: 12px;
+  border: 1px solid #ddd;       /* contorno leve */
+  border-radius: 8px;           /* cantos arredondados */
+  background: #f9f9f9;          /* fundo cinza bem claro */
+}
+
+
+.convidado .nome {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.convidado .opcoes {
+  display: flex;
+  gap: 10px;
+}
+
+.convidado button {
+  flex: 1;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+/* Botões de escolha */
+.btn-sim {
+  border-color: #2d7a32;
+  color: #2d7a32;
+  background: white;
+}
+.btn-sim.ativo {
+  background: #2d7a32;
+  color: white;
+}
+
+.btn-nao {
+  border-color: #aaa;
+  color: #666;
+  background: white;
+}
+.btn-nao.ativo {
+  background: #ccc;
+  color: #333;
+}
+
+/* Botão principal salvar */
+button.primary {
+  width: 100%;
+  margin-top: 20px;
+  background: #2d7a32;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+button.primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#mensagem {
+  margin-top: 16px;
+  text-align: center;
+  font-weight: 500;
+  color: #2d7a32;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+  body { padding: 15px; }
+  h1 { font-size: 1.4rem; }
+  .convidado button { font-size: 0.9rem; padding: 10px; }
+}
+.monograma img {
+  max-width: 120px;
+  margin: 0 auto 10px;
+  display: block;
+}
+
+.info-noivos {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.info-noivos .nomes {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  color: #2d7a32;
+  font-weight: bold;
+}
+.info-noivos .data {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #555;
+}
+.info-noivos .versiculo {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 10px;
+  font-style: italic;
+}
+.info-noivos .versiculo span {
+  font-size: 0.8rem;
+  display: block;
+  margin-top: 4px;
+  color: #444;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f5f0e9; /* bege clarinho */
+  color: #333;
+  min-height: 100vh;
+  padding: 20px;
+}
+.loading {
+  margin-top: 15px;
+  text-align: center;
+  color: #2d7a32;
+  font-size: 0.9rem;
+}
+
+.spinner {
+  width: 32px;
+  height: 32px;
+  border: 4px solid #ddd;
+  border-top: 4px solid #2d7a32;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 10px;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.botao {
+  display: inline-block;
+  background-color: #2d5938;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+
+
+
+

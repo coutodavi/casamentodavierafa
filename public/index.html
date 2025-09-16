@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rafaela & Davi - Casamento</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+  <div class="container central">
+    <div class="foto-circular">
+      <img src="img/noivos.jpg" alt="Foto dos noivos">
+      
+    </div>
+
+    <h1>Rafaela & Davi</h1>
+    <p class="data">21 de Novembro de 2025</p>
+    <p class="versiculo">
+      “Acima de tudo, porém, revistam-se do amor, que é o elo perfeito.”<br>
+      <span>(Colossenses 3:14)</span>
+    </p>
+<div class="contador">
+  <div class="item">
+    <span class="numero" id="dias">66</span>
+    <span class="label">dias</span>
+  </div>
+  <div class="item">
+    <span class="numero" id="horas">17</span>
+    <span class="label">horas</span>
+  </div>
+  <div class="item">
+    <span class="numero" id="minutos">56</span>
+    <span class="label">min</span>
+  </div>
+  <div class="item">
+    <span class="numero" id="segundos">07</span>
+    <span class="label">seg</span>
+  </div>
+</div>
+<p class="mensagem-boas-vindas">
+  Com alegria no coração, convidamos você para celebrar conosco este momento especial de união e amor.  
+  <br>
+  Sua presença tornará nosso dia ainda mais especial e abençoado.
+</p>
+
+
+
+
+<div class="botoes">
+  <a href="info.html" class="botao">ℹ️ Informações</a>
+  <a href="presentes.html" class="botao">🎁 Presentes</a>
+  <a href="confirmar.html" class="botao">✅ Confirmar presença</a>
+</div>
+
+
+    </div>
+  </div>
+  <script>
+  const dataCasamento = new Date("2025-11-21T16:30:00");
+
+  function atualizarContagem() {
+    const agora = new Date();
+    const diferenca = dataCasamento - agora;
+
+    if (diferenca <= 0) {
+      document.getElementById("contagem").innerHTML = "<strong>É hoje! 💍</strong>";
+      return;
+    }
+
+    const dias = Math.floor(diferenca / (1000 * 60 * 60 * 24));
+    const horas = Math.floor((diferenca / (1000 * 60 * 60)) % 24);
+    const minutos = Math.floor((diferenca / 1000 / 60) % 60);
+    const segundos = Math.floor((diferenca / 1000) % 60);
+
+    document.getElementById("dias").textContent = dias.toString().padStart(2, "0");
+    document.getElementById("horas").textContent = horas.toString().padStart(2, "0");
+    document.getElementById("minutos").textContent = minutos.toString().padStart(2, "0");
+    document.getElementById("segundos").textContent = segundos.toString().padStart(2, "0");
+  }
+
+  setInterval(atualizarContagem, 1000);
+  atualizarContagem();
+</script>
+
+
+</body>
+</html>

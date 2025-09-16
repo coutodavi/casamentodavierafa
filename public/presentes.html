@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <h1>Lista de Presentes</h1>
+<p class="mensagem-presentes">
+  Com muito carinho, montamos esta lista de presentes.  
+  Sua contribuição será uma lembrança especial em nossa nova fase.  
+  Obrigado por compartilhar este momento conosco! 💕
+</p>
+
+<!-- Botões de filtro -->
+<!-- Botões de filtro -->
+<div class="filtros">
+  <button onclick="filtrarPresentes('Todos')"><i class="fa-solid fa-gift"></i> Todos</button>
+  <button onclick="filtrarPresentes('Cozinha')"><i class="fa-solid fa-utensils"></i> Cozinha</button>
+  <button onclick="filtrarPresentes('Decoração')"><i class="fa-solid fa-couch"></i> Decoração</button>
+  <button onclick="filtrarPresentes('Eletrodomésticos')"><i class="fa-solid fa-bolt"></i> Eletrodomésticos</button>
+</div>
+
+
+<div class="lista-presentes" id="lista-presentes"></div>
+
+  <title>Lista de Presentes - Rafaela & Davi</title>
+ <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/presentes.css">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #ffffff;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2d5938;
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    .mensagem-presentes {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 40px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .lista-presentes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+  .presente {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 10px; /* antes era 15px ou 20px */
+}
+
+
+    .presente:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    }
+
+.presente img {
+  width: 85%;          /* ocupa menos espaço */
+  height: auto;
+  max-height: 150px;   /* limite de altura */
+  object-fit: contain; /* garante que a imagem não corte */
+  border-radius: 10px;
+  margin: 8px auto;   /* centraliza dentro do card */
+  display: block;
+}
+
+
+
+
+
+    .presente:hover img {
+      transform: scale(1.05);
+    }
+
+    .presente-conteudo {
+      padding: 15px 20px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .presente h3 {
+      font-size: 1.2rem;
+      color: #2d5938;
+      margin: 0 0 8px;
+    }
+
+    .presente p {
+      color: #555;
+      font-size: 1rem;
+      margin-bottom: 15px;
+    }
+
+    .presente a {
+      display: inline-block;
+      padding: 10px 16px;
+      background-color: #2d5938;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 500;
+      text-align: center;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .presente a:hover {
+      background-color: #244a2e;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="lista-presentes" id="lista-presentes">
+    <!-- Presentes virão via JS -->
+  </div>
+  <div class="voltar-btn">
+        <a href="index.html" class="botao">⬅️ Voltar</a>
+      </div>
+  <script src="js/script-presentes.js"></script>
+</body>
+
+</html>

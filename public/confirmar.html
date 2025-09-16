@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Confirmação de Presença | Rafa & Davi</title>
+
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5290/5290058.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/confirmacao/style.css"/>
+</head>
+<body>
+  <div class="container">
+   <!-- Monograma -->
+<div class="monograma">
+  <img src="/confirmacao/monograma.png" alt="Monograma Rafaela e Davi">
+</div>
+
+<h1>Confirmação de Presença</h1>
+
+<!-- Info dos noivos -->
+<div class="info-noivos">
+  <p class="nomes">Rafaela & Davi</p>
+  <p class="data">21 de Novembro de 2025</p>
+  <p class="versiculo">“Acima de tudo, porém, revistam-se do amor, que é o elo perfeito.”<br><span>Colossenses 3:14</span></p>
+</div>
+
+    <!-- Login -->
+    <div id="login">
+      <input type="text" id="codigo" placeholder="Digite o código do convite" />
+      <button type="button" onclick="entrar()">Entrar</button>
+    </div>
+    <div class="voltar-btn">
+  <a href="index.html" class="botao voltar">⬅️ Voltar</a>
+</div>
+
+
+    <!-- Área de presença -->
+    <div id="presenca" style="display: none;">
+
+      <p class="instrucoes">
+        Selecione para cada convidado se irá ou não comparecer.
+      </p>
+
+      <ul id="listaConvidados" class="convidados"></ul>
+
+      <button id="btnSalvar" class="primary" type="button" onclick="salvar()">Salvar</button>
+      <div id="loading" class="loading" style="display: none;">
+        
+  <div class="spinner"></div>
+  <p>Salvando suas escolhas...</p>
+</div>
+
+      <div id="mensagem"></div>
+    </div>
+  </div>
+
+  <script src="confirmacao/script.js"></script>
+  
+</body>
+</html>
