@@ -87,7 +87,6 @@ const mpClient = new mercadopago.MercadoPagoConfig({
 });
 const preference = new mercadopago.Preference(mpClient);
 
-// 🚀 Rota para criar preferência de pagamento
 app.post("/criar-pagamento", async (req, res) => {
   try {
     const { nome, preco, imagem } = req.body;
@@ -96,7 +95,9 @@ app.post("/criar-pagamento", async (req, res) => {
       items: [
         {
           title: nome,
-          unit_price: Number(preco),
+          unit_price: Number(
+            preco.replace("R$", "").replace(".", "").replace(",", ".").trim()
+          ),
           quantity: 1,
           picture_url: imagem
         }
@@ -110,13 +111,13 @@ app.post("/criar-pagamento", async (req, res) => {
     };
 
     const response = await preference.create({ body });
-
     res.json({ url: response.init_point });
   } catch (error) {
     console.error("Erro ao criar pagamento:", error);
     res.status(500).json({ error: "Erro ao criar pagamento" });
   }
 });
+
 
 // Tratamento para rotas inexistentes
 app.use((req, res) => {
