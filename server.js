@@ -122,6 +122,7 @@ app.post("/criar-pagamento", async (req, res) => {
 app.use((req, res) => {
   res.status(404).json({ erro: "Rota não encontrada." });
 });
+console.log("Access Token carregado:", process.env.MP_ACCESS_TOKEN ? "OK" : "VAZIO");
 
 // Inicia o servidor
 app.listen(PORT, () => {
