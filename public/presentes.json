@@ -1,38 +1,230 @@
 [
   {
-    "nome": "Cafeteira Italiana",
-    "valor": "R$ 150,00",
-    "imagem": "https://media.discordapp.net/attachments/693232314733428747/1417338088199553095/image.png?ex=68ca1e75&is=68c8ccf5&hm=f1ec63ca5772886dd2ae457bcfad8f7b7349c47a91d113b561dc439cb680d921&=&format=webp&quality=lossless",
+    "nome": "Escada Alumínio",
+    "valor": 199.81,
+    "imagem": "",
+    "categoria": "Área de serviço"
+  },
+  {
+    "nome": "Jogo de Toalhas - 5 peças",
+    "valor": 150.00,
+    "imagem": "",
+    "categoria": "Banheiro"
+  },
+  {
+    "nome": "Jogo de Toalhas",
+    "valor": 84.90,
+    "imagem": "",
+    "categoria": "Banheiro"
+  },
+  {
+    "nome": "Chaleira Elétrica",
+    "valor": 99.00,
+    "imagem": "",
     "categoria": "Cozinha"
   },
   {
-    "nome": "Conjunto de Taças de Cristal",
-    "valor": "R$ 200,00",
-    "imagem": "https://media.discordapp.net/attachments/693232314733428747/1417338088199553095/image.png?ex=68ca1e75&is=68c8ccf5&hm=f1ec63ca5772886dd2ae457bcfad8f7b7349c47a91d113b561dc439cb680d921&=&format=webp&quality=lossless",
+    "nome": "Petisqueira",
+    "valor": 80.00,
+    "imagem": "",
     "categoria": "Cozinha"
   },
   {
-    "nome": "Aparelho de Jantar 20 peças",
-    "valor": "R$ 350,00",
-    "imagem": "https://media.discordapp.net/attachments/693232314733428747/1417338088199553095/image.png?ex=68ca1e75&is=68c8ccf5&hm=f1ec63ca5772886dd2ae457bcfad8f7b7349c47a91d113b561dc439cb680d921&=&format=webp&quality=lossless",
+    "nome": "Conjunto de Taças",
+    "valor": 78.00,
+    "imagem": "",
     "categoria": "Cozinha"
   },
   {
-    "nome": "Vaso Decorativo",
-    "valor": "R$ 180,00",
-    "imagem": "https://media.discordapp.net/attachments/693232314733428747/1417338088199553095/image.png?ex=68ca1e75&is=68c8ccf5&hm=f1ec63ca5772886dd2ae457bcfad8f7b7349c47a91d113b561dc439cb680d921&=&format=webp&quality=lossless",
-    "categoria": "Decoração"
+    "nome": "Kit de facas",
+    "valor": 78.00,
+    "imagem": "",
+    "categoria": "Cozinha"
   },
   {
-    "nome": "Luminária de Mesa",
-    "valor": "R$ 220,00",
-    "imagem": "https://media.discordapp.net/attachments/693232314733428747/1417338088199553095/image.png?ex=68ca1e75&is=68c8ccf5&hm=f1ec63ca5772886dd2ae457bcfad8f7b7349c47a91d113b561dc439cb680d921&=&format=webp&quality=lossless",
-    "categoria": "Decoração"
+    "nome": "Taças para sobremesa",
+    "valor": 78.00,
+    "imagem": "",
+    "categoria": "Cozinha"
   },
   {
-    "nome": "Aspirador de Pó Vertical",
-    "valor": "R$ 400,00",
-    "imagem": "https://media.discordapp.net/attachments/693232314733428747/1417338088199553095/image.png?ex=68ca1e75&is=68c8ccf5&hm=f1ec63ca5772886dd2ae457bcfad8f7b7349c47a91d113b561dc439cb680d921&=&format=webp&quality=lossless",
-    "categoria": "Eletrodomésticos"
+    "nome": "Porta mantimentos",
+    "valor": 69.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Tábua",
+    "valor": 60.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Cooktop",
+    "valor": 600.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Jogo de panelas antiaderente cerâmica",
+    "valor": 570.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Purificador Água Gelada",
+    "valor": 400.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Aparelho de jantar",
+    "valor": 300.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Panela de pressão",
+    "valor": 256.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Aparelho de fondue",
+    "valor": 219.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Liquidificador",
+    "valor": 200.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Cafeteira",
+    "valor": 199.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Conjunto de formas",
+    "valor": 150.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Conjunto de xícaras",
+    "valor": 119.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Sanduicheira e Grill",
+    "valor": 113.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Faqueiro",
+    "valor": 104.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Cobertor em plush casal",
+    "valor": 400.00,
+    "imagem": "",
+    "categoria": "Casa"
+  },
+  {
+    "nome": "Batedeira planetária 8 velocidades",
+    "valor": 360.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Espagueteira",
+    "valor": 293.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Aspirador de pó",
+    "valor": 229.00,
+    "imagem": "",
+    "categoria": "Área de serviço"
+  },
+  {
+    "nome": "Roupões de banho",
+    "valor": 213.00,
+    "imagem": "",
+    "categoria": "Banheiro"
+  },
+  {
+    "nome": "Mini forno elétrico 9L com grill e timer",
+    "valor": 174.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Conjunto de xícaras de chá - 6 peças",
+    "valor": 160.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Taças para vinho - 6 peças",
+    "valor": 139.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Capa para travesseiro - 6 unidades",
+    "valor": 134.00,
+    "imagem": "",
+    "categoria": "Quarto"
+  },
+  {
+    "nome": "Conjunto de formas para bolo - 3 peças",
+    "valor": 66.00,
+    "imagem": "",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Cobertor Comfy",
+    "valor": 160.00,
+    "imagem": "",
+    "categoria": "Quarto"
+  },
+  {
+    "nome": "Jogo de Cama Casal",
+    "valor": 112.00,
+    "imagem": "",
+    "categoria": "Quarto"
+  },
+  {
+    "nome": "Colcha",
+    "valor": 109.00,
+    "imagem": "",
+    "categoria": "Quarto"
+  },
+  {
+    "nome": "Abajur luminária cabeceira",
+    "valor": 69.00,
+    "imagem": "",
+    "categoria": "Quarto"
+  },
+  {
+    "nome": "Manta Casal",
+    "valor": 63.00,
+    "imagem": "",
+    "categoria": "Quarto"
+  },
+  {
+    "nome": "Ventilador de teto",
+    "valor": 199.00,
+    "imagem": "",
+    "categoria": "Sala"
   }
 ]
