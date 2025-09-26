@@ -210,10 +210,10 @@
     "categoria": "Quarto"
   },
   {
-    "nome": "Abajur luminária cabeceira",
-    "valor": 69.00,
-    "imagem": "https://media.discordapp.net/attachments/693232314733428747/1417673958068850788/image.png?ex=68cb5742&is=68ca05c2&hm=1c453da0296be2946ddf378921fa14aaae5d27727267f5cd0a7e4d9bcc77c7aa&=&format=webp&quality=lossless",
-    "categoria": "Quarto"
+  "nome": "Abajur luminária cabeceira",
+  "valor": 69.00,
+  "imagem": "img/abajur.png",
+  "categoria": "Quarto"
   },
   {
     "nome": "Manta Casal",
