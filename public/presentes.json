@@ -110,7 +110,7 @@
   {
     "nome": "Conjunto de formas",
     "valor": 150.00,
-    "imagem": "https://cdn.discordapp.com/attachments/693232314733428747/1417675605092339802/image.png?ex=68cb58cb&is=68ca074b&hm=32828193b69080af338ee774c1bbca5930192001974703587011c2fdaa300e1b&",
+    "imagem": "https://i.postimg.cc/sx8Z7B3T/conjunto-de-travessas.png",
     "categoria": "Cozinha"
   },
   {
@@ -201,6 +201,48 @@
     "nome": "Manta Casal",
     "valor": 63.00,
     "imagem": "https://i.postimg.cc/x8g623yY/colcha2.jpg",
+    "categoria": "Quarto"
+  },
+   {
+    "nome": "Vaporizador",
+    "valor": 139.00,
+    "imagem": "https://i.postimg.cc/kMVNX9J6/vaporizador.jpg",
+    "categoria": "Quarto"
+  },
+     {
+    "nome": "Jarra de suco",
+    "valor": 70.00,
+    "imagem": "https://i.postimg.cc/hPLdftHs/jarra.jpg",
+    "categoria": "Quarto"
+  },
+       {
+    "nome": "Cafeteira",
+    "valor": 99.00,
+    "imagem": "https://i.postimg.cc/dtjhJSyC/cafeteira.jpg",
+    "categoria": "Quarto"
+  },
+         {
+    "nome": "Espelho",
+    "valor": 130.00,
+    "imagem": "https://i.postimg.cc/mkRTqB8f/espelho.jpg",
+    "categoria": "Quarto"
+  },
+  {
+    "nome": "Ferro",
+    "valor": 134.99,
+    "imagem": "https://i.postimg.cc/mrCfGKPm/ferro.jpg",
+    "categoria": "Quarto"
+  },
+  {
+    "nome": "Cafeteira Expresso",
+    "valor": 379.00,
+    "imagem": "https://i.postimg.cc/k5fNDgRD/cafeiracapsula.jpg",
+    "categoria": "Quarto"
+  },
+    {
+    "nome": "Espremedor",
+    "valor": 132.00,
+    "imagem": "https://i.postimg.cc/59FPK8FG/espremedor.jpg",
     "categoria": "Quarto"
   },
   {
