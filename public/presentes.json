@@ -122,115 +122,91 @@
   {
     "nome": "Sanduicheira e Grill",
     "valor": 113.00,
-    "imagem": "https://cdn.discordapp.com/attachments/693232314733428747/1417677866845343825/image.png?ex=68cb5ae6&is=68ca0966&hm=41afc9ed44b71afcc553ed7ca97a5df213e755a80eecce861278f32bc1c616fc&",
+    "imagem": "https://i.postimg.cc/XYrVG2Pc/sanduicheira.jpg",
     "categoria": "Cozinha"
   },
   {
     "nome": "Faqueiro",
     "valor": 104.00,
-    "imagem": "https://cdn.discordapp.com/attachments/693232314733428747/1417676513662205972/image.png?ex=68cb59a4&is=68ca0824&hm=b3b160e9fed451c5922f90b71a92f8f74ec07ee815c0a4b0ababde7cd105a353&",
+    "imagem": "https://i.postimg.cc/vBQk9TBR/FAQUEIRO.jpg",
     "categoria": "Cozinha"
   },
   {
     "nome": "Cobertor em plush casal",
     "valor": 400.00,
-    "imagem": "https://media.discordapp.net/attachments/693232314733428747/1417675378662707343/image.png?ex=68cb5895&is=68ca0715&hm=a7d198e1b10fdbdd37a3db6bc075671c3bfc84e35c009135e71ad93a5a8044c5&=&format=webp&quality=lossless",
+    "imagem": "https://i.postimg.cc/d0nnbBq2/COBERTORPLUSH.jpg",
     "categoria": "Casa"
   },
   {
     "nome": "Batedeira planetária 8 velocidades",
     "valor": 360.00,
-    "imagem": "https://cdn.discordapp.com/attachments/693232314733428747/1417674805691416606/image.png?ex=68cb580c&is=68ca068c&hm=50894ab73b2d651e3e18df130a8d9c58cf94c5e9a29bff3f6bb8cdff0e8dd39f&",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Espagueteira",
-    "valor": 293.00,
-    "imagem": "https://cdn.discordapp.com/attachments/693232314733428747/1417676426513092668/image.png?ex=68cb598f&is=68ca080f&hm=fe045a8f9af3c4f02a4d8494c16db8553136f86338bab9dbaeab0b4741dc6a09&",
+    "imagem": "https://i.postimg.cc/Y9ZPP3RM/batedeira.jpg",
     "categoria": "Cozinha"
   },
   {
     "nome": "Aspirador de pó",
     "valor": 229.00,
-    "imagem": "https://media.discordapp.net/attachments/693232314733428747/1417674520814157864/image.png?ex=68cb57c8&is=68ca0648&hm=7816802eafdaa0d4bfcd7bdb15800371c1b07f100bb1e959a34dea6a09a76134&=&format=webp&quality=lossless",
+    "imagem": "https://i.postimg.cc/cHpDhJ1d/aspirador.jpg",
     "categoria": "Área de serviço"
   },
   {
     "nome": "Roupões de banho",
     "valor": 213.00,
-    "imagem": "https://media.discordapp.net/attachments/693232314733428747/1417677770946904106/image.png?ex=68cb5acf&is=68ca094f&hm=409733bc0726ea0dbb4b64134674b8ce12d4589c3bcda73642b2f7308c0d2c34&=&format=webp&quality=lossless",
+    "imagem": "https://i.postimg.cc/gJWXKF9Q/roupao.jpg",
     "categoria": "Banheiro"
   },
   {
-    "nome": "Mini forno elétrico 9L com grill e timer",
+    "nome": "Forno elétrico",
     "valor": 174.00,
-    "imagem": "https://cdn.discordapp.com/attachments/693232314733428747/1417677282671198298/image.png?ex=68cb5a5b&is=68ca08db&hm=d9c1642f1cefb7095138dd9efc0e0614250a624c18ca0a6f9ea4c97341103021&",
+    "imagem": "https://i.postimg.cc/T31ry6Gm/forno.jpg",
     "categoria": "Cozinha"
   },
   {
-    "nome": "Conjunto de xícaras de chá - 6 peças",
-    "valor": 160.00,
-    "imagem": "https://cdn.discordapp.com/attachments/693232314733428747/1417676067778592862/image.png?ex=68cb5939&is=68ca07b9&hm=74d36162eb914431dc0d819f7e29eb7511fd25514b63c1f1839e3da9011d29a1&",
+    "nome": "Taças - 6 peças",
+    "valor": 150.00,
+    "imagem": "https://i.postimg.cc/MTqHQ7Rg/ta-as.jpg",
     "categoria": "Cozinha"
-  },
-  {
-    "nome": "Taças para vinho - 6 peças",
-    "valor": 139.00,
-    "imagem": "https://cdn.discordapp.com/attachments/693232314733428747/1417678159423344671/image.png?ex=68cb5b2c&is=68ca09ac&hm=f8d2948f94dae89c05006d7df5fa488a1494bff1b78defcea8a8fcb94ad452de&",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Capa para travesseiro - 6 unidades",
-    "valor": 134.00,
-    "imagem": "https://cdn.discordapp.com/attachments/693232314733428747/1417674989728960602/image.png?ex=68cb5838&is=68ca06b8&hm=6d8c6c77bf10f6c16a57b1bf9a92ca19ebbd5a9bdb9ba32afe8eb8cf3482c1ad&",
-    "categoria": "Quarto"
   },
   {
     "nome": "Conjunto de formas para bolo - 3 peças",
     "valor": 66.00,
-    "imagem": "https://cdn.discordapp.com/attachments/693232314733428747/1417675719294582954/image.png?ex=68cb58e6&is=68ca0766&hm=3c53bdf1d9e5e81fc29e83c414247eb7aa52185cfbf9e2d9198dedec982f67f5&",
+    "imagem": "https://i.postimg.cc/Fsdr1W8r/jogodeforma.jpg",
     "categoria": "Cozinha"
   },
   {
     "nome": "Cobertor Comfy",
     "valor": 160.00,
-    "imagem": "https://cdn.discordapp.com/attachments/693232314733428747/1417675263927521310/image.png?ex=68cb587a&is=68ca06fa&hm=c27fee8c89346a4175c11151771ffbbddcc65944e6a98a1ecac1a1271c51c6f2&",
+    "imagem": "https://i.postimg.cc/rp28Mhzg/cobertor2.png",
     "categoria": "Quarto"
   },
   {
     "nome": "Jogo de Cama Casal",
     "valor": 112.00,
-    "imagem": "https://cdn.discordapp.com/attachments/693232314733428747/1417676618427662446/image.png?ex=68cb59bc&is=68ca083c&hm=d5b5265d5faddcb43d85dbed7692f7251bf21cecec1f8ba394f487df6173cc66&",
+    "imagem": "https://i.postimg.cc/904hR083/jogodecama.jpg",
     "categoria": "Quarto"
   },
   {
     "nome": "Colcha",
     "valor": 109.00,
-    "imagem": "https://cdn.discordapp.com/attachments/693232314733428747/1417675500469358682/image.png?ex=68cb58b2&is=68ca0732&hm=5d1da3f6b5ddfe25fb1a78f794cdbef1e62dbba435e75ebfcee3e523e086faea&",
+    "imagem": "https://i.postimg.cc/1tb9KDVb/colcha.jpg",
     "categoria": "Quarto"
   },
   {
   "nome": "Abajur luminária cabeceira",
   "valor": 69.00,
-  "imagem": "https://i.postimg.cc/mZvPB9Kz/abajur.png",
+  "imagem": "https://i.postimg.cc/W19cn0BN/abajur.jpg",
   "categoria": "Quarto"
   },
   {
     "nome": "Manta Casal",
     "valor": 63.00,
-    "imagem": "https://cdn.discordapp.com/attachments/693232314733428747/1417677200286547998/image.png?ex=68cb5a47&is=68ca08c7&hm=2babd1bf61135d1678d11d3f2176daa83bc89ea470dfeda859e57399d7cca199&",
+    "imagem": "https://i.postimg.cc/x8g623yY/colcha2.jpg",
     "categoria": "Quarto"
   },
   {
     "nome": "Ventilador de teto",
     "valor": 199.00,
-    "imagem": "https://cdn.discordapp.com/attachments/693232314733428747/1417678336339214487/image.png?ex=68cb5b56&is=68ca09d6&hm=6aba81d17e78f5622e922d782075592da0d4a314d4bf3d06a8fd10f89c761987&",
-    "categoria": "Sala"
-  },
-  {
-      "nome": "teste",
-    "valor": 2.00,
-    "imagem": "https://cdn.discordapp.com/attachments/693232314733428747/1417678336339214487/image.png?ex=68cb5b56&is=68ca09d6&hm=6aba81d17e78f5622e922d782075592da0d4a314d4bf3d06a8fd10f89c761987&",
+    "imagem": "https://i.postimg.cc/QddRHHH0/ventilador.jpg",
     "categoria": "Sala"
   }
 ]
