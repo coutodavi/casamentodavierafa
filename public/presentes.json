@@ -6,129 +6,15 @@
     "categoria": "Área de serviço"
   },
   {
-    "nome": "Jogo de Toalhas - 5 peças",
-    "valor": 150.00,
-    "imagem": "https://i.postimg.cc/L6dFX9p5/jogo-de-toalhas.jpg",
-    "categoria": "Banheiro"
-  },
-  {
     "nome": "Jogo de Toalhas",
     "valor": 84.90,
     "imagem": "https://i.postimg.cc/1tcwqRdq/jogo-do-toalhas2.png",
     "categoria": "Banheiro"
   },
   {
-    "nome": "Chaleira Elétrica",
-    "valor": 99.00,
-    "imagem": "https://i.postimg.cc/kgnZ6Dhm/chaleira.png",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Petisqueira",
-    "valor": 80.00,
-    "imagem": "https://i.postimg.cc/pVfqfRjY/petisqueira.jpg",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Conjunto de Taças",
-    "valor": 78.00,
-    "imagem": "https://i.postimg.cc/rFdz6F9R/ta-as.png",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Kit de facas",
-    "valor": 78.00,
-    "imagem": "https://i.postimg.cc/3RJJtKRg/facas.jpg",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Taças para sobremesa",
-    "valor": 78.00,
-    "imagem": "https://i.postimg.cc/T3VdGy5y/sobremesa.jpg",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Porta mantimentos",
-    "valor": 69.00,
-    "imagem": "https://i.postimg.cc/6pf8cb0G/mantimentos.jpg",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Tábua",
-    "valor": 60.00,
-    "imagem": "https://i.postimg.cc/Dzt3XnXc/tabua.jpg",
-    "categoria": "Cozinha"
-  },
-  {
     "nome": "Cooktop",
     "valor": 600.00,
     "imagem": "https://i.postimg.cc/mr10RJ5q/cooktop.jpg",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Jogo de panelas antiaderente cerâmica",
-    "valor": 570.00,
-    "imagem": "https://i.postimg.cc/25WXgv1w/panelas.jpg",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Purificador Água Gelada",
-    "valor": 400.00,
-    "imagem": "https://i.postimg.cc/hGVp2BwG/purificador.jpg",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Aparelho de jantar",
-    "valor": 300.00,
-    "imagem": "https://i.postimg.cc/sxMW0PXV/aparelhodejantar.jpg",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Panela de pressão",
-    "valor": 256.00,
-    "imagem": "https://i.postimg.cc/tTYdLGvJ/panelapressao.jpg",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Aparelho de fondue",
-    "valor": 219.00,
-    "imagem": "https://i.postimg.cc/50jKGJ1v/fondue.png",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Liquidificador",
-    "valor": 200.00,
-    "imagem": "https://i.postimg.cc/vmD6mLrz/liquidificador.jpg",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Cafeteira",
-    "valor": 199.00,
-    "imagem": "https://i.postimg.cc/pXPzXZ5y/cafeteira.png",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Conjunto de formas",
-    "valor": 150.00,
-    "imagem": "https://i.postimg.cc/sx8Z7B3T/conjunto-de-travessas.png",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Conjunto de xícaras",
-    "valor": 119.00,
-    "imagem": "https://i.postimg.cc/BQqb6BsF/xicara.jpg",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Sanduicheira e Grill",
-    "valor": 113.00,
-    "imagem": "https://i.postimg.cc/XYrVG2Pc/sanduicheira.jpg",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Faqueiro",
-    "valor": 104.00,
-    "imagem": "https://i.postimg.cc/vBQk9TBR/FAQUEIRO.jpg",
     "categoria": "Cozinha"
   },
   {
@@ -138,16 +24,40 @@
     "categoria": "Casa"
   },
   {
-    "nome": "Batedeira planetária 8 velocidades",
-    "valor": 360.00,
-    "imagem": "https://i.postimg.cc/Y9ZPP3RM/batedeira.jpg",
+    "nome": "Jogo de Toalhas - 5 peças",
+    "valor": 150.00,
+    "imagem": "https://i.postimg.cc/L6dFX9p5/jogo-de-toalhas.jpg",
+    "categoria": "Banheiro"
+  },
+  {
+    "nome": "Liquidificador",
+    "valor": 200.00,
+    "imagem": "https://i.postimg.cc/vmD6mLrz/liquidificador.jpg",
     "categoria": "Cozinha"
   },
   {
-    "nome": "Aspirador de pó",
-    "valor": 229.00,
-    "imagem": "https://i.postimg.cc/cHpDhJ1d/aspirador.jpg",
-    "categoria": "Área de serviço"
+    "nome": "Jogo de Cama Casal",
+    "valor": 112.00,
+    "imagem": "https://i.postimg.cc/904hR083/jogodecama.jpg",
+    "categoria": "Quarto"
+  },
+  {
+    "nome": "Aparelho de jantar",
+    "valor": 300.00,
+    "imagem": "https://i.postimg.cc/sxMW0PXV/aparelhodejantar.jpg",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Colcha",
+    "valor": 109.00,
+    "imagem": "https://i.postimg.cc/1tb9KDVb/colcha.jpg",
+    "categoria": "Quarto"
+  },
+  {
+    "nome": "Aparelho de fondue",
+    "valor": 219.00,
+    "imagem": "https://i.postimg.cc/50jKGJ1v/fondue.png",
+    "categoria": "Cozinha"
   },
   {
     "nome": "Roupões de banho",
@@ -156,21 +66,39 @@
     "categoria": "Banheiro"
   },
   {
-    "nome": "Forno elétrico",
-    "valor": 174.00,
-    "imagem": "https://i.postimg.cc/T31ry6Gm/forno.jpg",
-    "categoria": "Cozinha"
-  },
-  {
-    "nome": "Taças - 6 peças",
-    "valor": 150.00,
-    "imagem": "https://i.postimg.cc/MTqHQ7Rg/ta-as.jpg",
-    "categoria": "Cozinha"
-  },
-  {
     "nome": "Conjunto de formas para bolo - 3 peças",
     "valor": 66.00,
     "imagem": "https://i.postimg.cc/Fsdr1W8r/jogodeforma.jpg",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Abajur luminária cabeceira",
+    "valor": 69.00,
+    "imagem": "https://i.postimg.cc/W19cn0BN/abajur.jpg",
+    "categoria": "Quarto"
+  },
+  {
+    "nome": "Purificador Água Gelada",
+    "valor": 400.00,
+    "imagem": "https://i.postimg.cc/hGVp2BwG/purificador.jpg",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Panela de pressão",
+    "valor": 256.00,
+    "imagem": "https://i.postimg.cc/tTYdLGvJ/panelapressao.jpg",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Ventilador de teto",
+    "valor": 199.00,
+    "imagem": "https://i.postimg.cc/QddRHHH0/ventilador.jpg",
+    "categoria": "Sala"
+  },
+  {
+    "nome": "Cafeteira",
+    "valor": 199.00,
+    "imagem": "https://i.postimg.cc/pXPzXZ5y/cafeteira.png",
     "categoria": "Cozinha"
   },
   {
@@ -180,57 +108,15 @@
     "categoria": "Quarto"
   },
   {
-    "nome": "Jogo de Cama Casal",
-    "valor": 112.00,
-    "imagem": "https://i.postimg.cc/904hR083/jogodecama.jpg",
-    "categoria": "Quarto"
+    "nome": "Kit de facas",
+    "valor": 78.00,
+    "imagem": "https://i.postimg.cc/3RJJtKRg/facas.jpg",
+    "categoria": "Cozinha"
   },
   {
-    "nome": "Colcha",
-    "valor": 109.00,
-    "imagem": "https://i.postimg.cc/1tb9KDVb/colcha.jpg",
-    "categoria": "Quarto"
-  },
-  {
-  "nome": "Abajur luminária cabeceira",
-  "valor": 69.00,
-  "imagem": "https://i.postimg.cc/W19cn0BN/abajur.jpg",
-  "categoria": "Quarto"
-  },
-  {
-    "nome": "Manta Casal",
-    "valor": 63.00,
-    "imagem": "https://i.postimg.cc/x8g623yY/colcha2.jpg",
-    "categoria": "Quarto"
-  },
-   {
-    "nome": "Vaporizador",
-    "valor": 139.00,
-    "imagem": "https://i.postimg.cc/kMVNX9J6/vaporizador.jpg",
-    "categoria": "Quarto"
-  },
-     {
-    "nome": "Jarra de suco",
-    "valor": 70.00,
-    "imagem": "https://i.postimg.cc/hPLdftHs/jarra.jpg",
-    "categoria": "Quarto"
-  },
-       {
-    "nome": "Cafeteira",
-    "valor": 99.00,
-    "imagem": "https://i.postimg.cc/dtjhJSyC/cafeteira.jpg",
-    "categoria": "Quarto"
-  },
-         {
     "nome": "Espelho",
     "valor": 130.00,
     "imagem": "https://i.postimg.cc/mkRTqB8f/espelho.jpg",
-    "categoria": "Quarto"
-  },
-  {
-    "nome": "Ferro",
-    "valor": 134.99,
-    "imagem": "https://i.postimg.cc/mrCfGKPm/ferro.jpg",
     "categoria": "Quarto"
   },
   {
@@ -239,16 +125,106 @@
     "imagem": "https://i.postimg.cc/k5fNDgRD/cafeiracapsula.jpg",
     "categoria": "Quarto"
   },
-    {
+  {
+    "nome": "Forno elétrico",
+    "valor": 174.00,
+    "imagem": "https://i.postimg.cc/T31ry6Gm/forno.jpg",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Conjunto de Taças",
+    "valor": 78.00,
+    "imagem": "https://i.postimg.cc/rFdz6F9R/ta-as.png",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Manta Casal",
+    "valor": 63.00,
+    "imagem": "https://i.postimg.cc/x8g623yY/colcha2.jpg",
+    "categoria": "Quarto"
+  },
+  {
+    "nome": "Aspirador de pó",
+    "valor": 229.00,
+    "imagem": "https://i.postimg.cc/cHpDhJ1d/aspirador.jpg",
+    "categoria": "Área de serviço"
+  },
+  {
+    "nome": "Sanduicheira e Grill",
+    "valor": 113.00,
+    "imagem": "https://i.postimg.cc/XYrVG2Pc/sanduicheira.jpg",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Conjunto de xícaras",
+    "valor": 119.00,
+    "imagem": "https://i.postimg.cc/BQqb6BsF/xicara.jpg",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Faqueiro",
+    "valor": 104.00,
+    "imagem": "https://i.postimg.cc/vBQk9TBR/FAQUEIRO.jpg",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Chaleira Elétrica",
+    "valor": 99.00,
+    "imagem": "https://i.postimg.cc/kgnZ6Dhm/chaleira.png",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Jarra de suco",
+    "valor": 70.00,
+    "imagem": "https://i.postimg.cc/hPLdftHs/jarra.jpg",
+    "categoria": "Quarto"
+  },
+  {
     "nome": "Espremedor",
     "valor": 132.00,
     "imagem": "https://i.postimg.cc/59FPK8FG/espremedor.jpg",
     "categoria": "Quarto"
   },
   {
-    "nome": "Ventilador de teto",
-    "valor": 199.00,
-    "imagem": "https://i.postimg.cc/QddRHHH0/ventilador.jpg",
-    "categoria": "Sala"
+    "nome": "Taças - 6 peças",
+    "valor": 150.00,
+    "imagem": "https://i.postimg.cc/MTqHQ7Rg/ta-as.jpg",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Vaporizador",
+    "valor": 139.00,
+    "imagem": "https://i.postimg.cc/kMVNX9J6/vaporizador.jpg",
+    "categoria": "Quarto"
+  },
+  {
+    "nome": "Conjunto de formas",
+    "valor": 150.00,
+    "imagem": "https://i.postimg.cc/sx8Z7B3T/conjunto-de-travessas.png",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Tábua",
+    "valor": 60.00,
+    "imagem": "https://i.postimg.cc/Dzt3XnXc/tabua.jpg",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Taças para sobremesa",
+    "valor": 78.00,
+    "imagem": "https://i.postimg.cc/T3VdGy5y/sobremesa.jpg",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Batedeira planetária 8 velocidades",
+    "valor": 360.00,
+    "imagem": "https://i.postimg.cc/Y9ZPP3RM/batedeira.jpg",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Ferro",
+    "valor": 134.99,
+    "imagem": "https://i.postimg.cc/mrCfGKPm/ferro.jpg",
+    "categoria": "Quarto"
   }
 ]
