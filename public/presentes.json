@@ -247,19 +247,19 @@
   },
       {
     "nome": "Maquina de lavar roupa",
-    "valor": "3.252",
+    "valor": 3.225",
     "imagem": "https://i.postimg.cc/02ZPrg2Y/maquinaroupa.png",
     "categoria": "Cozinha"
   },
         {
     "nome": "Porta sabonete",
-    "valor": "89.99",
+    "valor": 89.99,
     "imagem": "https://i.postimg.cc/QMT2Qvsb/porta-sabonete.png",
     "categoria": "Cozinha"
   },
     {
     "nome": "Conjunto de copos",
-    "valor": "183.53",
+    "valor": 183.53,
     "imagem": "https://i.postimg.cc/nL4dcxp5/conjunto-copo.png",
     "categoria": "Cozinha"
   },
