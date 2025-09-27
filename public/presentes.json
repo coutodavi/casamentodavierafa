@@ -205,67 +205,67 @@
   },
   {
     "nome": "Tábua",
-    "valor": 60.00,
+    "valor": 60,
     "imagem": "https://i.postimg.cc/Dzt3XnXc/tabua.jpg",
     "categoria": "Cozinha"
   },
   {
     "nome": "Taças para sobremesa",
-    "valor": 78.00,
+    "valor": 78,
     "imagem": "https://i.postimg.cc/T3VdGy5y/sobremesa.jpg",
     "categoria": "Cozinha"
   },
   {
     "nome": "Batedeira planetária 8 velocidades",
-    "valor": 360.00,
+    "valor": 360,
     "imagem": "https://i.postimg.cc/Y9ZPP3RM/batedeira.jpg",
     "categoria": "Cozinha"
   },
    {
     "nome": "Cesto",
-    "valor": 99.90,
+    "valor": 99,
     "imagem": "https://i.postimg.cc/L5H3sgNt/cesto.png",
     "categoria": "Cozinha"
   },
   {
     "nome": "Saladeira",
-    "valor": 87.90,
+    "valor": 87,
     "imagem": "https://i.postimg.cc/3JN2bT6h/saladeira.png",
     "categoria": "Cozinha"
   },
     {
     "nome": "Tábua de passar roupa",
-    "valor": 178.90,
+    "valor": 178,
     "imagem": "https://i.postimg.cc/bNnwvVS1/tabuapassar.png",
     "categoria": "Cozinha"
   },
      {
     "nome": "Lixeira",
-    "valor": 104.90,
+    "valor": 104,
     "imagem": "https://i.postimg.cc/C1Wdv3f5/lixeira.png",
     "categoria": "Cozinha"
   },
       {
     "nome": "Maquina de lavar roupa",
-    "valor": 3.225",
+    "valor": 3225",
     "imagem": "https://i.postimg.cc/02ZPrg2Y/maquinaroupa.png",
     "categoria": "Cozinha"
   },
         {
     "nome": "Porta sabonete",
-    "valor": 89.99,
+    "valor": 89,
     "imagem": "https://i.postimg.cc/QMT2Qvsb/porta-sabonete.png",
     "categoria": "Cozinha"
   },
     {
     "nome": "Conjunto de copos",
-    "valor": 183.53,
+    "valor": 183,
     "imagem": "https://i.postimg.cc/nL4dcxp5/conjunto-copo.png",
     "categoria": "Cozinha"
   },
   {
     "nome": "Ferro",
-    "valor": 134.99,
+    "valor": 134,
     "imagem": "https://i.postimg.cc/mrCfGKPm/ferro.jpg",
     "categoria": "Quarto"
   }
