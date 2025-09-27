@@ -221,6 +221,48 @@
     "imagem": "https://i.postimg.cc/Y9ZPP3RM/batedeira.jpg",
     "categoria": "Cozinha"
   },
+   {
+    "nome": "Cesto",
+    "valor": 99.90,
+    "imagem": "https://i.postimg.cc/L5H3sgNt/cesto.png",
+    "categoria": "Cozinha"
+  },
+  {
+    "nome": "Saladeira",
+    "valor": 87.90,
+    "imagem": "https://i.postimg.cc/3JN2bT6h/saladeira.png",
+    "categoria": "Cozinha"
+  },
+    {
+    "nome": "Tábua de passar roupa",
+    "valor": 178.90,
+    "imagem": "https://i.postimg.cc/bNnwvVS1/tabuapassar.png",
+    "categoria": "Cozinha"
+  },
+     {
+    "nome": "Lixeira",
+    "valor": 104.90,
+    "imagem": "https://i.postimg.cc/C1Wdv3f5/lixeira.png",
+    "categoria": "Cozinha"
+  },
+      {
+    "nome": "Maquina de lavar roupa",
+    "valor": "3.252",
+    "imagem": "https://i.postimg.cc/02ZPrg2Y/maquinaroupa.png",
+    "categoria": "Cozinha"
+  },
+        {
+    "nome": "Porta sabonete",
+    "valor": "89.99",
+    "imagem": "https://i.postimg.cc/QMT2Qvsb/porta-sabonete.png",
+    "categoria": "Cozinha"
+  },
+    {
+    "nome": "Conjunto de copos",
+    "valor": "183.53",
+    "imagem": "https://i.postimg.cc/nL4dcxp5/conjunto-copo.png",
+    "categoria": "Cozinha"
+  },
   {
     "nome": "Ferro",
     "valor": 134.99,
