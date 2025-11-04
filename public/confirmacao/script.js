@@ -1,6 +1,6 @@
 let convidados = [];
 let codigoAtual = "";
-const dataLimite = new Date("2025-10-31"); // ajuste a data limite
+const dataLimite = new Date("2025-11-21"); // ajuste a data limite
 
 function formatarDataLimite() {
   return dataLimite.toLocaleDateString('pt-BR', {
