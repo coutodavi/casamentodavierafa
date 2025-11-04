@@ -1103,8 +1103,16 @@
         "nome": "Arthur",
         "presenca": "Não"
       },
-     {
+           {
         "nome": "Claudia",
+        "presenca": "Não"
+      },
+           {
+        "nome": "Mariana",
+        "presenca": "Não"
+      },
+     {
+        "nome": "Lucas",
         "presenca": "Não"
       }
     ]
